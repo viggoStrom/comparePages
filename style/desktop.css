@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    background-color: #363636;
+}
+
+section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.halvScreen {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+
+    width: 45%;
+    aspect-ratio: 16/9;
+
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.iframe {
+    /* aspect-ratio: 16/9; */
+    height: 60rem;
+    padding: 2rem;
+
+    resize: horizontal;
+
+    background-color: white;
+    border: .2rem solid #252525;
+}
