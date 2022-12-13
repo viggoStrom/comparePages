@@ -19,10 +19,10 @@ section {
     flex-flow: column nowrap;
     text-align: center;
 
-    width: 45%;
+    width: 50%;
     aspect-ratio: 16/9;
 
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .title {
@@ -32,8 +32,10 @@ section {
 }
 
 .iframe {
-    /* aspect-ratio: 16/9; */
     height: 60rem;
+    min-width: 10rem;
+    max-width: 110%;
+    
     padding: 2rem;
 
     resize: horizontal;
