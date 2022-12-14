@@ -8,6 +8,28 @@ body {
     background-color: #363636;
 }
 
+#disclaimerBanner {
+    background-color: #252525;
+
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 1rem;
+
+    font-size: 2.2rem;
+}
+
+#disclaimerP {
+    font-size: 2rem;
+
+    padding-bottom: 1rem;
+}
+
 section {
     display: flex;
     flex-flow: row nowrap;
@@ -22,7 +44,7 @@ section {
     width: 50%;
     aspect-ratio: 16/9;
 
-    padding: 2rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .title {
@@ -35,7 +57,7 @@ section {
     height: 60rem;
     min-width: 10rem;
     max-width: 110%;
-    
+
     padding: 2rem;
 
     resize: horizontal;
